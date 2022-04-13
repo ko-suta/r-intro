@@ -13,6 +13,6 @@ All course materials will be posted on this site.
 
 **Instructor**: [Kostiantyn Ovsiannikov](https://kovsiannikov.com)  
 **Meeting times**: <span style="color:blue">Thursday, 12:00-13:45 (GMT+1)</span>  
-**Venue**: online (access via *Moodle*)  
+**Venue**: online (access via [*Moodle*](https://moodle.zdv.uni-tuebingen.de/course/view.php?id=2470))  
 **Syllabus**: [click here](syllabus.html)  
 Upcoming **lectures** and **assignments**: [click here](schedule.html)  

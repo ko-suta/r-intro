@@ -6,7 +6,7 @@
       "description": "<a href=\"https://uni-tuebingen.de/studium/studienangebot/ueberfachliche-kompetenzen/transdisciplinary-course-program/\" target=\"_blank\" rel=\"noopener noreferrer\">\"Transdisciplinary Course Program\" at the University of T&#252;bingen<\/a>",
       "author": [],
       "contents": "\nThis is the home page for the Basic Data Analysis in R for Social Sciences course at the University of Tübingen, “Transdisciplinary Course Program” (Summer 2022). All course materials will be posted on this site.\nInstructor: Kostiantyn OvsiannikovMeeting times: Thursday, 12:00-13:45 (GMT+1)Venue: online (access via Moodle)Syllabus: click here\nUpcoming lectures and assignments: click here\n\n\n\n",
-      "last_modified": "2022-04-13T15:03:03+09:00"
+      "last_modified": "2022-04-13T15:08:45+09:00"
     },
     {
       "path": "schedule.html",
@@ -14,7 +14,7 @@
       "description": "Summer 2022 Semester Schedule\n",
       "author": [],
       "contents": "\n\nContents\nLectures\n1. Apr. 21, 2022 – Introduction\n2. Apr. 28, 2022 – Session 1\n3. May 5, 2022 – Session 2\n4. May 12, 2022 – Session 3\n\n\nLectures\n1. Apr. 21, 2022 – Introduction\n\nMaterials:\n\n\n2. Apr. 28, 2022 – Session 1\n\nMaterials:\n\nNotes\n3. May 5, 2022 – Session 2\n\nMaterials:\n\nNotes\n4. May 12, 2022 – Session 3\n\nMaterials:\n\nNotes\n\n\n\n",
-      "last_modified": "2022-04-13T15:03:03+09:00"
+      "last_modified": "2022-04-13T15:08:45+09:00"
     },
     {
       "path": "syllabus.html",
@@ -22,7 +22,7 @@
       "description": "",
       "author": [],
       "contents": "\n\nContents\nCourse title and instructor\nPurpose and contents of the class\nTeaching methods\nQualification objective\nRequirements\nSelected literature to be used for the class\n\nCourse title and instructor\nTitle: Basic Data Analysis in R for Social Sciences (Summer 2022)\nInstructor: Kostiantyn OvsiannikovEmail: ovsiannikov@kochi-tech.ac.jpOffice Hours: by appointment GitHub: ko-suta \nPurpose and contents of the class\nFocusing on the data analysis in R programming language, this course will cover the following activities: data exploration, transformation, visualization, modeling, and communication. It will concentrate on the relevant socio-economic data-sets, enabling the participants to complement their prior knowledge and interests with data-oriented know-how. The students will learn basic statistical techniques in R through hands-on sessions, getting familiar with R language through joint exercises. As a result, they will be able to apply various quantitative skills in their respective research projects and will be equipped with techniques to master more advanced R operations in future.\nTeaching methods\nhands-on sessions;\ndemonstrations of R capabilities via the customized website created for this course;\nexercises and assignments based on a real data\nQualification objective\nEquipping students with basic tools for data analysis in R that they will be able to apply in their research projects and beyond.\nRequirements\nCourse attendance of more than 70%\nBased on the covered material, completion of several assignments in R language such as:\nExploratory data analysis\nData modelling\nData visualization\n\nDue to a variety of available R tools suited for these purposes, students will be encouraged to demonstrate their analytical and creative skills. Participants will also be able to use datasets of their own choice and interest, directly applying quantitative techniques in R for their research projects.\nSelected literature to be used for the class\nWickham, H. & Grolemund, G. (2017). R for Data Science.\nHealy, K. (2018). Data Visualization: A Practical Introduction.\nWilke, C. (2018). Fundamentals of Data Visualization.\n\n\n\n",
-      "last_modified": "2022-04-13T15:03:03+09:00"
+      "last_modified": "2022-04-13T15:08:46+09:00"
     }
   ],
   "collections": []
