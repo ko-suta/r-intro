@@ -1,0 +1,73 @@
+---
+title: "Syllabus"
+description: ""
+base_url: https://r-intro-tuebingen.netlify.app/
+preview:
+twitter:
+  site: "@kovsiann"
+  creator: "@kovsiann"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Course title and instructor
+
+**Title:** Basic Data Analysis in R for Social Sciences (Summer 2022)<br>
+
+
+**Instructor:** [Kostiantyn Ovsiannikov](https://kovsiannikov.com)<br>
+**Email:** ovsiannikov@kochi-tech.ac.jp<br>
+**Office Hours:** by appointment <br>
+**GitHub:** [ko-suta](https://github.com/ko-suta/r-intro/) <br>
+
+## Purpose and contents of the class
+
+Focusing on the data analysis in `R` programming language, this course will cover the following activities: data exploration, transformation, visualization, modeling, and communication. 
+It will concentrate on the relevant socio-economic data-sets, enabling the participants to complement their prior knowledge and interests with data-oriented know-how. 
+The students will learn basic statistical techniques in `R` through hands-on sessions, getting familiar with `R` language through joint exercises. 
+As a result, they will be able to apply various quantitative skills in their respective research projects and will be equipped with techniques to master more advanced `R` operations in future.
+
+
+## Teaching methods
+
+- hands-on sessions; 
+
+- demonstrations of `R` capabilities via the customized website created for this course; 
+
+- exercises and assignments based on a real data
+
+
+
+## Qualification objective
+
+Equipping students with basic tools for data analysis in `R` that they will be able to apply in their research projects and beyond. 
+
+
+## Requirements
+
+- Course attendance of more than 70%
+
+- Based on the covered material, completion of several assignments in R language such as:
+   
+   1) exploratory data analysis 
+   
+   2) data modelling
+   
+   3) data visualization
+
+Due to a variety of available `R` tools suited for these purposes, students will be encouraged to demonstrate their analytical and creative skills. 
+Participants will also be able to use datasets of their own choice and interest, directly applying quantitative techniques in `R` for their research projects.
+
+
+## Selected literature to be used for the class 
+
++ Wickham, H \& Grolemund, G. (2017). [_R for Data Science_](https://r4ds.had.co.nz/).
++ Healy, K. (2018). [_Data Visualization: A Practical Introduction_](https://socviz.co/).
++ Wilke, C. (2018). [_Fundamentals of Data Visualization_](https://clauswilke.com/dataviz/).
