@@ -1,0 +1,188 @@
+---
+title: "Basic Data Analysis in R for Social Sciences"
+subtitle: "Course overview"
+author: "Kostiantyn Ovsiannikov, Ph.D."
+institute: ".white.bg-green[Kochi University of Technology]"
+date: "21 April 2022"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["rutgers-new.css", "rutgers-fonts"]
+    nature:
+      beforeInit: "macros.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 16:9
+      #ratio: "191:100"
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+#library(summarytools)
+library(here)
+library(ymlthis)
+library(tidyverse)
+library(fontawesome)
+library(readr)
+library(ggthemes)
+library(ggpubr)
+library(RColorBrewer)
+library(kableExtra)
+library(data.table)
+library(metathis)
+library(xaringanthemer)
+library(xaringanExtra)
+library(data.table)
+library(RefManageR)
+library(plm)
+library(mgcv)
+library(mgcViz)
+library(stargazer)
+library(plotly)
+library(htmlwidgets)
+library(modelsummary)
+
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(collapse = TRUE,
+                      fig.retina = 3)
+
+```
+
+
+```{r, load_refs, include=FALSE, cache=FALSE}
+
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "alphabetic",
+           style = "markdown",
+           hyperlink = FALSE,
+           dashed = FALSE)
+myBib <- ReadBib(here("slides", "Dual-Market-OECD", "Labor-Dualism.bib"), check = FALSE)
+```
+
+
+```{r xaringan-extra, echo=FALSE}
+ 
+xaringanExtra::use_scribble()
+xaringanExtra::use_tile_view()
+xaringanExtra::use_tachyons()
+xaringanExtra::use_panelset()
+xaringanExtra::use_share_again()
+xaringanExtra::use_broadcast()
+xaringanExtra::use_search(show_icon = TRUE)
+
+xaringanExtra::style_share_again(
+  foreground = "white",
+  background = "black",
+  share_buttons = c("twitter", "linkedin", "facebook")
+)
+
+# xaringanExtra::use_logo(
+#   width = "220px",
+#   height = "256px",
+#   position = xaringanExtra::css_position(top = "2em", right = "2em"),
+#   image_url = "assets/img/KUT.jpg",
+#   exclude_class = "hide_logo"
+# )
+
+xaringanExtra::use_extra_styles(
+  hover_code_line = TRUE,         #<<
+  mute_unhighlighted_code = TRUE  #<<
+)
+
+xaringanExtra::use_progress_bar(
+  color = "#0051BA", 
+  location = "top", 
+  height = "10px"
+  )
+```
+
+
+#  My involevement with R: background
+
+## Utilizing the benefits of an open-source software
+
+.pull-left[
+* Need for conducting statistical analysis
+
+
+* Need for creating publishable-quality tables
+
+
+* No access to paid statistical software
+
+
+* Available free software:
+  - limited scope of application
+  - learning curve is unsustainable
+]
+
+.pull-right[
+
+```{r echo=FALSE, include=TRUE, out.width = "120%", fig.align='center'}
+knitr::include_graphics("assets/img/Fig2.Patrat.png")
+```
+
+]
+---
+
+## Benefiting from the range of visual tools
+
+.pull-left[
+
+```{r echo=FALSE, include=TRUE, out.width = "100%", fig.align='center'}
+knitr::include_graphics("assets/img/Debt-Map3.png")
+```
+
+]
+
+--
+
+.pull-right[
+
+```{r echo=FALSE, include=TRUE, out.width = "120%", fig.align='center'}
+knitr::include_graphics("assets/img/Fstrength_lag_new4.png")
+```
+
+]
+
+---
+
+## Some more examples
+
+.pull-left[
+
+```{r echo=FALSE, include=TRUE, out.width = "100%", fig.align='center'}
+knitr::include_graphics("assets/img/CorrPlot.png")
+```
+
+]
+
+.pull-right[
+
+```{r echo=FALSE, include=TRUE, out.width = "100%", fig.align='center'}
+knitr::include_graphics("assets/img/Municipal-Profiles-2015.png")
+```
+
+]
+
+---
+
+## Websites' production
+
+.pull-left[
+
+```{r echo=FALSE, fig.cap = '<a href="https://kovsiannikov.com" style="color:Black;">Source</a>'}
+knitr::include_url("https://kovsiannikov.com")
+```
+
+]
+
+.pull-right[
+
+```{r echo=FALSE, fig.cap = '<a href="https://r-intro-tuebingen.netlify.app/" style="color:Black;">Source</a>'}
+knitr::include_url("https://r-intro-tuebingen.netlify.app/")
+```
+
+]
