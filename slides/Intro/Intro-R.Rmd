@@ -177,7 +177,7 @@ knitr::include_graphics("assets/img/Municipal-Profiles-2015.png")
 
 .pull-left[
 
-```{r echo=FALSE, fig.cap = '<a href="https://dual-market.netlify.app/" style="color:Black;">Labor Market Dualism in the International Context</a>'}
+```{r echo=FALSE, fig.cap = '<a href="https://dual-market.netlify.app/" style="color:Black;">"Labor Market Dualism in the International Context"</a>'}
 knitr::include_url("https://dual-market.netlify.app/")
 ```
 
@@ -187,7 +187,7 @@ knitr::include_url("https://dual-market.netlify.app/")
 
 .pull-right[
 
-```{r echo=FALSE, fig.cap = '<a href="https://r-intro-tuebingen.netlify.app/" style="color:Black;">Basic Data Analysis in R for Social Sciences</a>'}
+```{r echo=FALSE, fig.cap = '<a href="https://r-intro-tuebingen.netlify.app/" style="color:Black;">"Basic Data Analysis in R for Social Sciences"</a>'}
 knitr::include_url("https://r-intro-tuebingen.netlify.app/")
 ```
 
