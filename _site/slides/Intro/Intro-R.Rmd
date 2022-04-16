@@ -118,6 +118,8 @@ xaringanExtra::use_progress_bar(
   - learning curve is unsustainable
 ]
 
+--
+
 .pull-right[
 
 ```{r echo=FALSE, include=TRUE, out.width = "120%", fig.align='center'}
@@ -159,6 +161,8 @@ knitr::include_graphics("assets/img/CorrPlot.png")
 
 ]
 
+--
+
 .pull-right[
 
 ```{r echo=FALSE, include=TRUE, out.width = "100%", fig.align='center'}
@@ -173,15 +177,17 @@ knitr::include_graphics("assets/img/Municipal-Profiles-2015.png")
 
 .pull-left[
 
-```{r echo=FALSE, fig.cap = '<a href="https://kovsiannikov.com" style="color:Black;">Source</a>'}
-knitr::include_url("https://kovsiannikov.com")
+```{r echo=FALSE, fig.cap = '<a href="https://dual-market.netlify.app/" style="color:Black;">Labor Market Dualism in the International Context</a>'}
+knitr::include_url("https://dual-market.netlify.app/")
 ```
 
 ]
 
+--
+
 .pull-right[
 
-```{r echo=FALSE, fig.cap = '<a href="https://r-intro-tuebingen.netlify.app/" style="color:Black;">Source</a>'}
+```{r echo=FALSE, fig.cap = '<a href="https://r-intro-tuebingen.netlify.app/" style="color:Black;">Basic Data Analysis in R for Social Sciences</a>'}
 knitr::include_url("https://r-intro-tuebingen.netlify.app/")
 ```
 
