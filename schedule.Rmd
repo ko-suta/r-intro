@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <p class="nospace">Materials:</p>
 
-[Slides](slides/Intro/Intro-R.html)
+- [Slides](slides/Intro/Intro-R.html)
 
 
 ### 2. Apr. 28, 2022 -- Session 1
