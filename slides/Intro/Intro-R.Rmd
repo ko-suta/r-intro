@@ -1,5 +1,5 @@
 ---
-title: "Basic Data Analysis in R for Social Sciences"
+title: "Basic Data Analysis in R <br> for Social Sciences"
 subtitle: "Course overview"
 author: "Kostiantyn Ovsiannikov, Ph.D."
 institute: ".white.bg-green[Kochi University of Technology]"
@@ -166,7 +166,7 @@ knitr::include_graphics("assets/img/CorrPlot.png")
 .pull-right[
 
 ```{r echo=FALSE, include=TRUE, out.width = "100%", fig.align='center'}
-knitr::include_graphics("assets/img/Municipal-Profiles-2015.png")
+knitr::include_graphics("assets/img/Mobility-Average.png")
 ```
 
 ]
@@ -183,12 +183,25 @@ knitr::include_url("https://dual-market.netlify.app/")
 
 ]
 
+
 --
 
 .pull-right[
 
 ```{r echo=FALSE, fig.cap = '<a href="https://r-intro-tuebingen.netlify.app/" style="color:Black;">"Basic Data Analysis in R for Social Sciences"</a>'}
 knitr::include_url("https://r-intro-tuebingen.netlify.app/")
+```
+
+]
+
+---
+
+# First step: installing R and RStudio
+
+.pull-left[
+
+```{r echo=FALSE, fig.cap = '<a href="https://jennhuck.github.io/workshops/install_update_R.html" style="color:Black;">Install or Update R</a>'}
+knitr::include_url("https://jennhuck.github.io/workshops/install_update_R.html")
 ```
 
 ]
