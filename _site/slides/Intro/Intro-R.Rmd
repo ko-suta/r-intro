@@ -196,12 +196,22 @@ knitr::include_url("https://r-intro-tuebingen.netlify.app/")
 
 ---
 
-# First step: installing R and RStudio
+# Getting started with R
 
 .pull-left[
 
+
 ```{r echo=FALSE, fig.cap = '<a href="https://jennhuck.github.io/workshops/install_update_R.html" style="color:Black;">Install or Update R</a>'}
 knitr::include_url("https://jennhuck.github.io/workshops/install_update_R.html")
+```
+]
+
+--
+
+.pull-right[
+
+```{r echo=FALSE, fig.cap = '<a href="https://bookdown.org/daniel_dauber_io/r4np_book/the-rstudio-interface.html" style="color:Black;">RStudio interface</a>'}
+knitr::include_url("https://bookdown.org/daniel_dauber_io/r4np_book/the-rstudio-interface.html")
 ```
 
 ]
