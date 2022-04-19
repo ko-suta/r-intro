@@ -211,7 +211,8 @@ knitr::include_url("https://jennhuck.github.io/workshops/install_update_R.html")
 .pull-right[
 
 ```{r echo=FALSE, fig.cap = '<a href="https://bookdown.org/daniel_dauber_io/r4np_book/the-rstudio-interface.html" style="color:Black;">RStudio interface</a>'}
-knitr::include_url("https://bookdown.org/daniel_dauber_io/r4np_book/the-rstudio-interface.html")
+knitr::include_url("https://socviz.co/gettingstarted.html")
 ```
 
 ]
+
