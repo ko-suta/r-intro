@@ -216,3 +216,20 @@ knitr::include_url("https://socviz.co/gettingstarted.html")
 
 ]
 
+---
+
+class: title-slide-final, middle
+background-size: 200px
+background-position: 5% 1%
+
+# Thank You for Your attention!
+
+## Questions / Suggestions?
+
+### You can access the presentation & contact me `r fa("arrow-alt-circle-down", fill = "#cc0033")`
+
+|                                                                                                            |                                   |
+| :--------------------------------------------------------------------------------------------------------- | :-------------------------------- |
+| <a href="mailto:ovsiannikov@kochi-tech.ac.jp">`r fa("paper-plane", fill = "#cc0033")`          | ovsiannikov@kochi-tech.ac.jp |
+|                                                                                                |                              |
+| <a href="https://r-intro-tuebingen.netlify.app/slides/intro/intro-r">`r fa("link", fill = "#cc0033")` | r-intro-tuebingen.netlify.app             |
